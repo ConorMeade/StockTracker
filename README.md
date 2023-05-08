@@ -1,4 +1,4 @@
-# RedArris Code Test
+# StockTracker .NET App
 
 This project was bootstrapped with Visual Studio to give the boilerplate code for building REST API endpoints. The endpoint `/GetStockData` will return historial stock data given the parameters `tickerSymbol`, `startDate`, and `fromDate` which are used to determine the daily returns for the date range specified (inclusive).
 
