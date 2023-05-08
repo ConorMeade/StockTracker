@@ -1,0 +1,28 @@
+{
+  "schemas": {
+    "Stock": {
+      "required": [
+        "TickerSymbol"
+      ],
+      "type": "list",
+      "properties": {
+        "TickerSymbol": {
+          "type": "string"
+        },
+        "FromDate": {
+          "type": "DateTime"
+        },
+        "ToDate": {
+          "type": "DateTime"
+        },
+        "CurrentDate": {
+          "type": "DateTime"
+        },
+        "DailyReturns": {
+          "type": "double"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
